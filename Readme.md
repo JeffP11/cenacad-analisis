@@ -1,5 +1,5 @@
 # Análisis de Sentimientos con TextBlob y VADER
-
+Análisis cualitativo de los comentarios obtenidos en el censo académico de la Facultad de Ingeniería en Electricidad y Computación de la Escuela Superior Politécnica del Litoral en el período del 2015 1S al 2019 2S.
 ## Dependencias
 Crear un ambiente virtual dentro del directorio con el *nombre* que desee [tener virtualenv instalado]
 

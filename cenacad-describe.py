@@ -30,7 +30,7 @@ def saveResults(flag, name=None, stdout=None):
         sys.stdout = open(f"{name}.txt", "w")
     else:
         sys.stdout.close()
-        sys.stdout = original_stdout
+        sys.stdout = stdout
 
 if __name__ == "__main__":
 
