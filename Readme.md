@@ -24,9 +24,20 @@ Una vez que el ambiente virtual esté activado, instale las dependencias (requir
 ```
 $ python -m pip install -r requirements.txt
 ```
+Finalmente, antes de proceder a  ejecutar el script principal, debe instalar dependencias de VADER con la librería NLTK. Desde dentro del entorno virtual ejecute first_script.py:
+
+```
+$ python first_script.py
+```
+que contiene lo siguiente, tranquilamente puede ejecutar las líneas en python.
+```
+import nltk
+nltk.download('vader_lexicon')
+nltk.download('punkt')
+```
+
 ## Instrucciones
-1. Ejecutar script cenacad-describe.py
-2. Ejecutar script cenacad-sentiment.py
+Si no se cuenta con los directorios resultados y graficos llenos, entonces ejecutar script: cenacad-describe.py
 
 ## Colaboradores
 ```
