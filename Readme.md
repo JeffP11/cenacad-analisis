@@ -37,7 +37,10 @@ nltk.download('punkt')
 ```
 
 ## Instrucciones
-Si no se cuenta con los directorios resultados y graficos llenos, entonces ejecutar script: cenacad-describe.py
+Si no se cuenta con los directorios resultados y graficos llenos, entonces ejecutar script cenacad_describe.py:
+```
+$ python cenacad_describe.py
+```
 
 ## Colaboradores
 ```
